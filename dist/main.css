@@ -1,0 +1,189 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#000000;
+}
+abbr,acronym { border: 0;
+}
+
+.sec-mob {display: none;}
+
+/* Custom CSS
+ * --------------------------------------- */
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 2em;
+	}
+}
+
+.loader-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #bcdfdf;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .loader {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	border: 4px solid #111;
+	animation: loader 2s infinite ease;
+  }
+
+  .loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #111;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
+
+body{
+	color: #000;
+	color: rgba(0,0,0,0.5);
+	font-family: 'Montserrat', sans-serif;
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+h1{
+	font-size: 4em;
+}
+h3 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 3em;
+}
+#first, #days-count {
+	background-color: #000;
+	color: #bcdfdf;
+}
+#days-count h1, #days-count h2, #days-count p {
+	color: #ffffff;
+}
+.next {
+	padding-left: 20%;
+	padding-right: 20%;
+	background-color: #bcdfdf;
+}
+.btn-secondary {
+	background-color: #222;
+	border-radius: 15px;
+	border: 0px;
+}
+#first h1 {
+	color: #fff;
+}
+#friend-wish, #wish-epan, #wish-epan-b, #memo, #last, .mems {
+	background-color: #bcdfdf;
+}
+#first p, #last p, #friend-wish-b p {
+	margin: 1em 10em 0 10em;
+}
+#first p span {
+	font-size: .6em;
+}
+p{
+	font-size: 1.5em;
+	color: #000;
+}
+.section {
+	text-align: center;
+	background-size: cover;
+}
+.fa-heart-o {
+	color: red;
+}
+a#scrollTop {
+	transition: .3s;
+	text-decoration: underline;
+}
+a#scrollTop:focus {text-decoration: none;}
+a#scrollTop p{
+	font-size: 1em;
+	color: #000;
+	opacity: .3;
+}
+a#scrollTop:hover {
+	opacity: .6;
+}
+.wish {
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+}
+.wsh h2, .wsh p {
+	color: #fff;
+}
+.wish p {
+	margin-top: 8px;
+	font-size: 1em;
+}
+#days-count p, #memo p {
+	font-size: 1em;
+}
+#days-count {
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+#thrifty {
+	background-image: url("../dist/bg1.jpg");
+}
+
+#confident {
+	background-image: url("../dist/bg2.jpg");
+}
+
+#lup {
+	background-image: url("../dist/bg3.jpg");
+}
+
+#happy {
+	background-image: url("../dist/bg4.jpg");
+}
+
+
+.mems img
+	width: 100%;
+}
+.mems {
+	text-align: left;
+}
+.mems p {
+	font-size: 1.2em;
+}
