@@ -18,6 +18,9 @@ typewriter.typeString('Raden Rara Fabiola Sari Paramastri!')
     .deleteAll()
     .typeString('Sari!')
     .pauseFor(2500)
+    .deleteAll()
+    .typeString('Byawak!')
+    .pauseFor(2500)
     .start();
 
     window.onload = function() {

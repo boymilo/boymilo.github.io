@@ -92,10 +92,14 @@ h2 {
 	background-color: #000;
 	color: #bcdfdf;
 }
+
+#first p {
+	color: #ffb6b6;
+}
 #days-count h1, #days-count h2, #days-count p {
 	color: #ffffff;
 }
-.next {
+.next, .last {
 	padding-left: 20%;
 	padding-right: 20%;
 	background-color: #bcdfdf;
@@ -108,7 +112,7 @@ h2 {
 #first h1 {
 	color: #fff;
 }
-#friend-wish, #wish-epan, #wish-epan-b, #memo, #last, .mems {
+#friend-wish, #wish, #memo, #last, {
 	background-color: #bcdfdf;
 }
 #first p, #last p, #friend-wish-b p {
@@ -161,29 +165,37 @@ a#scrollTop:hover {
 	padding-right: 120px;
 }
 
-#thrifty {
+#hemat {
 	background-image: url("../dist/bg1.jpg");
 }
 
-#confident {
+#dewasa {
 	background-image: url("../dist/bg2.jpg");
 }
 
-#lup {
+#dewasa h2, #dewasa p{
+	color: #000
+}
+
+#bersosialisasi {
 	background-image: url("../dist/bg3.jpg");
 }
 
-#happy {
+#percaya-diri {
 	background-image: url("../dist/bg4.jpg");
-}
-
-
-.mems img
 	width: 100%;
+	height: 100%;
 }
-.mems {
+
+.last {
 	text-align: left;
 }
-.mems p {
+.last img, .last video {
+	width: 100%;
+}
+.last video {
+	height: 635px;
+}
+.last p {
 	font-size: 1.2em;
 }
